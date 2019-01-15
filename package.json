@@ -1,0 +1,33 @@
+{
+  "name": "buscoDepto",
+  "version": "1.0.0",
+  "description": "deptos dueño directo",
+  "author": "CarloGammarota&amp;WalterGammarota",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.12",
+    "@fortawesome/free-solid-svg-icons": "^5.6.3",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/bulma": "^1.2.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.3",
+    "i": "^0.3.6",
+    "npm": "^6.5.0",
+    "nuxt": "^2.0.0",
+    "nuxt-fontawesome": "^0.4.0",
+    "vuetify": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
