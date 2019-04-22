@@ -39,14 +39,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    ['nuxt-fontawesome', {
-      component: 'fa',
-      imports: [
-        {
-          set: '@fortawesome/vue-fontawesome'
-        }
-      ]
-    }],
+  
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
@@ -74,7 +67,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }
